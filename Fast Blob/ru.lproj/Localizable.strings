@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Fast Blob
+
+  Created by Andrey Ermoshin on 09.07.15.
+  Copyright (c) 2015 Speed Run. All rights reserved.
+*/
+
+"Fast Blob" = "Fast Blob";
+"Start" = "Старт";
+"PLAY" = "ИГРАТЬ";
+"button_ok" = "OK";
+"Main menu" = "Главное меню";
+"Top players" = "Победители";
+"Game end" = "Конец игры";
+"btn_ttl_play" = "Играть";
+"btn_ttl_leaderboard" = "Таблица результатов";
+"ttl_about" = "О игре";

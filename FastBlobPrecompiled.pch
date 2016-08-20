@@ -1,0 +1,18 @@
+//
+//  FastBlobPrecompiled.pch
+//  Fast Blob
+//
+//  Created by Andrey Ermoshin on 09.07.15.
+//  Copyright (c) 2015 Speed Run. All rights reserved.
+//
+
+#ifndef Fast_Blob_FastBlobPrecompiled_pch
+#define Fast_Blob_FastBlobPrecompiled_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "FBCommonConstants.h"
+#import "UIColor+FBExtension.h"
+
+#endif
