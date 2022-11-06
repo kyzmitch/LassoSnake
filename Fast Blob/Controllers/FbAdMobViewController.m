@@ -8,11 +8,8 @@
 
 #import "FbAdMobViewController.h"
 #import "GameViewController.h"
-@import GoogleMobileAds;
 
 @interface FbAdMobViewController ()
-
-@property (nonatomic, weak) IBOutlet GADBannerView *bannerView;
 
 @end
 
@@ -21,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"AdMob Ctrl: Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
 }
 
 - (void)closeButtonPressed:(id)sender{

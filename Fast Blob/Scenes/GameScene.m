@@ -682,9 +682,6 @@ static const CGFloat kFbSEdgeRectMatchPoint = 100;
     [alert setBodyTextFontFamily:@"MuseoSansCyrl" withSize:16];
     [alert addButton:NSLocalizedString(@"Main menu", nil) target:self selector:@selector(returnToMainMenu:)];
     
-    alert.showAnimationType = SlideInFromTop;
-    alert.hideAnimationType = SlideOutToTop;
-    alert.backgroundType = Blur;
     [alert showCustom:nil color:FB_MENU_BUTTON_COLOR
                 title:NSLocalizedString(@"Game end", nil)
              subTitle:[NSString stringWithFormat:@"%ld", (long)self.levelScoreLabelNode.totalScore]

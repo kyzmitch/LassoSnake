@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "MainMenuViewController.h"
 #import <GameKit/GameKit.h>
-#import "Flurry.h"
 #import <iRate.h>
 
 @interface AppDelegate () <GKGameCenterControllerDelegate>
@@ -28,11 +27,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Flurry setCrashReportingEnabled:YES];
-    [Flurry setShowErrorInLogEnabled:YES];
-    [Flurry setDebugLogEnabled:NO];
-    [Flurry startSession:__FB_FLURRY_SESSION_ID];
-    
     [iRate sharedInstance].daysUntilPrompt = 1;
     [iRate sharedInstance].usesUntilPrompt = 3;
     // need users only who

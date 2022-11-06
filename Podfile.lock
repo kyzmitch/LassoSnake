@@ -1,0 +1,24 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - iRate (1.12.2)
+  - SCLAlertView-Objective-C (1.1.5)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - iRate
+  - SCLAlertView-Objective-C
+
+SPEC REPOS:
+  trunk:
+    - FlatUIKit
+    - iRate
+    - SCLAlertView-Objective-C
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  iRate: 4fc69958788624545e5d050c8ffd20884013c3f1
+  SCLAlertView-Objective-C: 69c8932c332ce61ee9e693379451e2c0b09fb307
+
+PODFILE CHECKSUM: bd6f93435e4b2d2aed4feeb60d27ea145c1ebb62
+
+COCOAPODS: 1.11.3

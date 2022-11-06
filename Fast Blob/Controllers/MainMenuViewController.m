@@ -16,12 +16,10 @@
 #import <FlatUIKit.h>
 #import "UIPopoverController+FlatUI.h"
 #import "FbAboutPopoverViewController.h"
-@import GoogleMobileAds;
 
-@interface MainMenuViewController() <GKGameCenterControllerDelegate, UIPopoverControllerDelegate, GADInterstitialDelegate>
+@interface MainMenuViewController() <GKGameCenterControllerDelegate, UIPopoverControllerDelegate>
 
 @property (nonatomic, strong) UIView *splashAfterIntro;
-@property (nonatomic, strong) GADInterstitial *interstitial;
 @property (nonatomic, readwrite) BOOL needToShowAd;
 
 @end
@@ -31,8 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"Menu Ctrl: Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
     
     [self.playBtn setTitle:NSLocalizedString(@"btn_ttl_play", nil) forState:UIControlStateNormal];
     self.playBtn.buttonColor = [UIColor turquoiseColor];
@@ -85,7 +81,6 @@
         if (finished){
             [self.splashAfterIntro removeFromSuperview];
             if (self.needToShowAd){
-                self.interstitial = [self createAndLoadInterstitial];
             }
         }
     }];
@@ -195,27 +190,6 @@
     else{
         NSLog(@"Menu Ctrl: unsupported platform");
     }
-}
-
-- (GADInterstitial *)createAndLoadInterstitial {
-    GADInterstitial *interstitial =
-    [[GADInterstitial alloc] initWithAdUnitID:kFbAdMobInterstitialId];
-    interstitial.delegate = self;
-    [interstitial loadRequest:[GADRequest request]];
-    return interstitial;
-}
-
-- (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial {
-    
-}
-
-- (void)interstitialDidReceiveAd:(GADInterstitial *)ad{
-    [self.interstitial presentFromRootViewController:self];
-    self.needToShowAd = NO;
-}
-
-- (void)interstitial:(GADInterstitial *)ad didFailToReceiveAdWithError:(GADRequestError *)error{
-    NSLog(@"Menu Ctrl: failed to load admob %@", [error description]);
 }
 
 @end

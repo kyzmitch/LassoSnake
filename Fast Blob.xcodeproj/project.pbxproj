@@ -28,7 +28,8 @@
 		78E91A691BC7CE1400C7D410 /* FBCheckInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E91A681BC7CE1400C7D410 /* FBCheckInternet.m */; };
 		78E91A6B1BC7D61400C7D410 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E91A6A1BC7D61400C7D410 /* SystemConfiguration.framework */; };
 		78E91A6E1BC7E27500C7D410 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E91A6D1BC7E27500C7D410 /* Reachability.m */; };
-		91CC776F53115038571C7039 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 767E3C05629DEB713B260A3E /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		8A889D3E2917CD5D0097B335 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8A889D3D2917CD5D0097B335 /* Podfile */; };
+		B6492547A3DC55B4E171325E /* Pods_Fast_Blob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9562C89E542342AC9A33BEE /* Pods_Fast_Blob.framework */; };
 		C70F20951B4E6F4100F0F915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C70F20971B4E6F4100F0F915 /* Localizable.strings */; };
 		C70F209E1B4EA06300F0F915 /* FBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F209D1B4EA06300F0F915 /* FBUtils.m */; };
 		C74DA6521B6E53310053C723 /* FBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DA6511B6E53310053C723 /* FBButton.m */; };
@@ -41,7 +42,6 @@
 		C7625B841B52C28A007008BB /* FbLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C7625B831B52C28A007008BB /* FbLine.m */; };
 		C767683F1B6B7BA6009890BF /* FbCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C767683E1B6B7BA6009890BF /* FbCustomAlert.m */; };
 		C77E649B1BEBCD290015ACC2 /* FbAboutPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77E649A1BEBCD290015ACC2 /* FbAboutPopoverViewController.m */; };
-		C77E649E1BEBDA760015ACC2 /* Pods-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = C77E649C1BEBD9E50015ACC2 /* Pods-acknowledgements.markdown */; };
 		C78AE45C1BDEB6C40048FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78AE45B1BDEB6C40048FA21 /* LaunchScreen.storyboard */; };
 		C79F711F1B69DF37003D34F3 /* FbLevelEndAlertNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F711E1B69DF37003D34F3 /* FbLevelEndAlertNode.m */; };
 		C7A9F8E61C09A77A00435E71 /* FbPhysicalSnake.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A9F8E51C09A77A00435E71 /* FbPhysicalSnake.m */; };
@@ -57,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		1B3D6C8F75B33A9A17D80642 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5E59071302A155261AB2156A /* Pods-Fast Blob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Blob.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Blob/Pods-Fast Blob.release.xcconfig"; sourceTree = "<group>"; };
 		75708C371C1FE8FA008AC1B9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		75708C391C1FE903008AC1B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		75708C3B1C1FE914008AC1B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,7 +69,6 @@
 		75708C471C1FE9CC008AC1B9 /* FbAdMobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FbAdMobViewController.h; path = Controllers/FbAdMobViewController.h; sourceTree = "<group>"; };
 		75708C481C1FE9CC008AC1B9 /* FbAdMobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FbAdMobViewController.m; path = Controllers/FbAdMobViewController.m; sourceTree = "<group>"; };
 		7590775A1C5B3F8F0098738B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		767E3C05629DEB713B260A3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		781028421BB53B9B0095047A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		785BD8D01BD7B05300B8DE70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7869B8E91BBD1E57000A5804 /* Main.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Main.strings; sourceTree = "<group>"; };
@@ -89,6 +89,8 @@
 		78E91A6A1BC7D61400C7D410 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		78E91A6C1BC7E26800C7D410 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Services/Reachability.h; sourceTree = "<group>"; };
 		78E91A6D1BC7E27500C7D410 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Services/Reachability.m; sourceTree = "<group>"; };
+		8A889D3D2917CD5D0097B335 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A7A2E02AE5FA1C7F6883962B /* Pods-Fast Blob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Blob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Blob/Pods-Fast Blob.debug.xcconfig"; sourceTree = "<group>"; };
 		C70F20821B4E65D300F0F915 /* FastBlobPrecompiled.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FastBlobPrecompiled.pch; path = ../FastBlobPrecompiled.pch; sourceTree = "<group>"; };
 		C70F20961B4E6F4100F0F915 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C70F20981B4E6F4500F0F915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		C7F505EC1BC4D43B003D14EC /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = Controllers/MainMenuViewController.m; sourceTree = "<group>"; };
 		C7F505F41BC4D4B2003D14EC /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stopwatch.h; path = GameNodeObjects/Stopwatch.h; sourceTree = "<group>"; };
 		C7F505F51BC4D4B2003D14EC /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stopwatch.m; path = GameNodeObjects/Stopwatch.m; sourceTree = "<group>"; };
+		D9562C89E542342AC9A33BEE /* Pods_Fast_Blob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Blob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CD0CF38672B379181E9E12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,7 +157,7 @@
 				75708C3A1C1FE903008AC1B9 /* AudioToolbox.framework in Frameworks */,
 				78E91A6B1BC7D61400C7D410 /* SystemConfiguration.framework in Frameworks */,
 				781028431BB53B9B0095047A /* GameKit.framework in Frameworks */,
-				91CC776F53115038571C7039 /* libPods.a in Frameworks */,
+				B6492547A3DC55B4E171325E /* Pods_Fast_Blob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +188,7 @@
 				78E91A6A1BC7D61400C7D410 /* SystemConfiguration.framework */,
 				781028421BB53B9B0095047A /* GameKit.framework */,
 				78A65A301BA2B54C004127D3 /* iAd.framework */,
-				767E3C05629DEB713B260A3E /* libPods.a */,
+				D9562C89E542342AC9A33BEE /* Pods_Fast_Blob.framework */,
 			);
 			name = Frameworks;
 			path = "Fast Blob";
@@ -194,6 +197,7 @@
 		78DF8C411B41219100412EE8 = {
 			isa = PBXGroup;
 			children = (
+				8A889D3D2917CD5D0097B335 /* Podfile */,
 				7875E8571BDF89BC00815E43 /* Sounds */,
 				78BDF7C51BB1550100471CE3 /* Frameworks */,
 				78DF8C4C1B41219200412EE8 /* Fast Blob */,
@@ -268,6 +272,8 @@
 			children = (
 				E2CD0CF38672B379181E9E12 /* Pods.debug.xcconfig */,
 				1B3D6C8F75B33A9A17D80642 /* Pods.release.xcconfig */,
+				A7A2E02AE5FA1C7F6883962B /* Pods-Fast Blob.debug.xcconfig */,
+				5E59071302A155261AB2156A /* Pods-Fast Blob.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -390,13 +396,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78DF8C721B41219200412EE8 /* Build configuration list for PBXNativeTarget "Fast Blob" */;
 			buildPhases = (
+				EB64E1DF89C1811505FEF9C6 /* [CP] Check Pods Manifest.lock */,
 				A4E5B784AD27EB96063C3B0F /* Check Pods Manifest.lock */,
 				78DF8C461B41219200412EE8 /* Sources */,
 				78DF8C471B41219200412EE8 /* Frameworks */,
 				78DF8C481B41219200412EE8 /* Resources */,
-				6292ADB768C5CFCA1F9587FD /* Copy Pods Resources */,
-				2801D4623CC2D52F17FC71EF /* Embed Pods Frameworks */,
 				C7A9AE1C1BEDDF7B0096114D /* ShellScript */,
+				5CB9894D72BADD02AADD5CF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,6 +424,7 @@
 				TargetAttributes = {
 					78DF8C491B41219200412EE8 = {
 						CreatedOnToolsVersion = 6.3.2;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -434,8 +441,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 78DF8C411B41219100412EE8;
 			productRefGroup = 78DF8C4B1B41219200412EE8 /* Products */;
@@ -452,9 +461,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77E649E1BEBDA760015ACC2 /* Pods-acknowledgements.markdown in Resources */,
 				78DF8C601B41219200412EE8 /* Images.xcassets in Resources */,
 				78C809131BE7629300F8C045 /* MainMenu.storyboard in Resources */,
+				8A889D3E2917CD5D0097B335 /* Podfile in Resources */,
 				C78AE45C1BDEB6C40048FA21 /* LaunchScreen.storyboard in Resources */,
 				C70F20951B4E6F4100F0F915 /* Localizable.strings in Resources */,
 				C75A0AF01B4FCCAE005271B4 /* HeadFireParticle.sks in Resources */,
@@ -466,34 +475,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2801D4623CC2D52F17FC71EF /* Embed Pods Frameworks */ = {
+		5CB9894D72BADD02AADD5CF3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast Blob/Pods-Fast Blob-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlatUIKit/FlatUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
+				"${BUILT_PRODUCTS_DIR}/iRate/iRate.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlatUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iRate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6292ADB768C5CFCA1F9587FD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fast Blob/Pods-Fast Blob-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4E5B784AD27EB96063C3B0F /* Check Pods Manifest.lock */ = {
@@ -523,6 +524,28 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "# Update build version with number of commits\nBUILD_NUMBER=$(git rev-list HEAD | wc -l | tr -d ' ')\n\n# Set git SHA for this build\nGIT_SHA=$(git rev-parse --short HEAD)\n\n# Update version string with build number\nLINES_CHANGED=$(git status --porcelain | wc -l | tr -d ' ')\nPLIST_CHANGED=$(git status --porcelain | grep \"${INFOPLIST_FILE}\" | wc -l | tr -d ' ')\nif [ \"$LINES_CHANGED\" == \"1\" -a \"$PLIST_CHANGED\" == \"1\" ]; then\nGIT_RELEASE_VERSION=$(git describe --tags --always)\nelse\nGIT_RELEASE_VERSION=$(git describe --tags --always --dirty)\nfi\n\n# Update plist with new values\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n/usr/libexec/PlistBuddy -c \"Set :GitSHA $GIT_SHA\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n# Should use correct Version string for releases\n\nbuilddate=`date +\"%d.%m.%Y\"`\n/usr/libexec/PlistBuddy -c \"Add :CFBuildDate $builddate\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBuildDate $builddate\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+		EB64E1DF89C1811505FEF9C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fast Blob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -612,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -651,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -661,41 +684,49 @@
 		};
 		78DF8C731B41219200412EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2CD0CF38672B379181E9E12 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A7A2E02AE5FA1C7F6883962B /* Pods-Fast Blob.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FastBlobPrecompiled.pch;
 				INFOPLIST_FILE = "Fast Blob/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ae.LassoSnake.debug;
 				PRODUCT_NAME = "Lasso snake";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		78DF8C741B41219200412EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B3D6C8F75B33A9A17D80642 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 5E59071302A155261AB2156A /* Pods-Fast Blob.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FastBlobPrecompiled.pch;
 				INFOPLIST_FILE = "Fast Blob/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Lasso snake";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
